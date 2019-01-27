@@ -32,7 +32,7 @@ align.motifs <- function(thresholds = list(Ncor = 0.4, cor = 0.6, w = 5),
   motifs.info.levels <- list()
   internal.nodes.attributes <<- list()
   motif.at.tree.level <- leaves.per.node(tree)
-  print("test")
+  
   checked.levels <<- rep(0, times = length(tree$merge)/2)
 
   ## Iterate through the merge of the hierarchical tree

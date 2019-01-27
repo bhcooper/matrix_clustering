@@ -105,6 +105,10 @@ check.alignment <- function(id1,
 
   ## The condition to align the motifs at the current level is that all
   ## ALL the user-set thresholds must be satisfied.
+  th
+  unlist(th)
+  sum(unlist(th))
+  length(thresholds)S
   if(sum(unlist(th)) == length(thresholds)){
     return(1)
   }else{

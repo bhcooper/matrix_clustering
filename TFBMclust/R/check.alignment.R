@@ -108,7 +108,7 @@ check.alignment <- function(id1,
   th
   unlist(th)
   sum(unlist(th))
-  length(thresholds)S
+  length(thresholds)
   if(sum(unlist(th)) == length(thresholds)){
     return(1)
   }else{
